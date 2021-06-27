@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="39813" started-at="2021-06-27T13:05:15Z" finished-at="2021-06-27T13:05:55Z">
+  <suite name="Regression Suite" duration-ms="19252" started-at="2021-06-27T13:26:17Z" finished-at="2021-06-27T13:26:37Z">
     <groups>
     </groups>
-    <test name="Credit Card Test" duration-ms="39813" started-at="2021-06-27T13:05:15Z" finished-at="2021-06-27T13:05:55Z">
+    <test name="Credit Card Test" duration-ms="19252" started-at="2021-06-27T13:26:17Z" finished-at="2021-06-27T13:26:37Z">
       <class name="test.SimpliLearnLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.SimpliLearnLogin@71b1176b]" name="setup" is-config="true" duration-ms="22476" started-at="2021-06-27T13:05:15Z" finished-at="2021-06-27T13:05:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.SimpliLearnLogin@71b1176b]" name="setup" is-config="true" duration-ms="8796" started-at="2021-06-27T13:26:17Z" finished-at="2021-06-27T13:26:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.SimpliLearnLogin@71b1176b]" name="login" duration-ms="16192" started-at="2021-06-27T13:05:37Z" finished-at="2021-06-27T13:05:54Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.SimpliLearnLogin@71b1176b]" name="login" duration-ms="9641" started-at="2021-06-27T13:26:26Z" finished-at="2021-06-27T13:26:36Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:test.SimpliLearnLogin@71b1176b]" name="teardown" is-config="true" duration-ms="1122" started-at="2021-06-27T13:05:54Z" finished-at="2021-06-27T13:05:55Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.SimpliLearnLogin@71b1176b]" name="teardown" is-config="true" duration-ms="788" started-at="2021-06-27T13:26:36Z" finished-at="2021-06-27T13:26:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
