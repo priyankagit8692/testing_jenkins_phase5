@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="23184" started-at="2021-06-27T09:43:45Z" finished-at="2021-06-27T09:44:08Z">
+    <groups>
+    </groups>
+    <test name="Credit Card Test" duration-ms="23184" started-at="2021-06-27T09:43:45Z" finished-at="2021-06-27T09:44:08Z">
+      <class name="test.SimpliLearnLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.SimpliLearnLogin@769e7ee8]" name="setup" is-config="true" duration-ms="11772" started-at="2021-06-27T09:43:45Z" finished-at="2021-06-27T09:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.SimpliLearnLogin@769e7ee8]" name="login" duration-ms="10623" started-at="2021-06-27T09:43:57Z" finished-at="2021-06-27T09:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyankakumawat0086@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[San1dy@8692]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.SimpliLearnLogin@769e7ee8]" name="teardown" is-config="true" duration-ms="738" started-at="2021-06-27T09:44:07Z" finished-at="2021-06-27T09:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.SimpliLearnLogin -->
+    </test> <!-- Credit Card Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
