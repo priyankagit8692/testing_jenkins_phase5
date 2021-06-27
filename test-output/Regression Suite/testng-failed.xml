@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Credit Card Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="uname" value="priyankakumawat0086@gmail.com"/>
     <parameter name="pd" value="San1dy@8692"/>
     <classes>
@@ -13,5 +13,5 @@
         </methods>
       </class> <!-- test.SimpliLearnLogin -->
     </classes>
-  </test> <!-- Credit Card Test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

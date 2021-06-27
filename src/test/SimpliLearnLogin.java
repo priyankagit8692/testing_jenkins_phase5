@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
 
 import com.beust.jcommander.Parameter;
 
-@Listeners(TestNGListenerExample.class)
+@Listeners(TestListenerExample.class)
 public class SimpliLearnLogin {
 	//WebDriver is a interface
 	WebDriver driver;
