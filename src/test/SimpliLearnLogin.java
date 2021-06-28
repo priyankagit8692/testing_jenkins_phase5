@@ -51,7 +51,7 @@ public class SimpliLearnLogin {
 		driver.manage().timeouts().implicitlyWait(9000, TimeUnit.MILLISECONDS);
 		
 		driver.get("https://www.simplilearn.com/");
-		Thread.sleep(2000);
+		Thread.sleep(10000);
 		
 		FileInputStream fis = new FileInputStream("exceldata.xlsx");
 		workbook = new XSSFWorkbook(fis);
