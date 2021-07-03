@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="32984" started-at="2021-06-28T16:39:15Z" finished-at="2021-06-28T16:39:48Z">
+  <suite name="Regression Suite" duration-ms="38060" started-at="2021-07-03T19:10:57Z" finished-at="2021-07-03T19:11:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32984" started-at="2021-06-28T16:39:15Z" finished-at="2021-06-28T16:39:48Z">
-      <class name="test.SimpliLearnLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.SimpliLearnLogin@7334aada]" name="setup" is-config="true" duration-ms="17926" started-at="2021-06-28T16:39:15Z" finished-at="2021-06-28T16:39:33Z">
+    <test name="Test" duration-ms="38060" started-at="2021-07-03T19:10:57Z" finished-at="2021-07-03T19:11:35Z">
+      <class name="test.ParallelTest">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:test.ParallelTest@a7e666]" name="Test1" duration-ms="31107" started-at="2021-07-03T19:10:57Z" finished-at="2021-07-03T19:11:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:test.SimpliLearnLogin@7334aada]" name="login" duration-ms="13854" started-at="2021-06-28T16:39:33Z" finished-at="2021-06-28T16:39:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[priyankakumawat0086@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[San1dy@8692]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:test.ParallelTest@a7e666]" name="Test2" duration-ms="38026" started-at="2021-07-03T19:10:57Z" finished-at="2021-07-03T19:11:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:test.SimpliLearnLogin@7334aada]" name="teardown" is-config="true" duration-ms="1175" started-at="2021-06-28T16:39:47Z" finished-at="2021-06-28T16:39:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- test.SimpliLearnLogin -->
+        </test-method> <!-- Test2 -->
+      </class> <!-- test.ParallelTest -->
     </test> <!-- Test -->
   </suite> <!-- Regression Suite -->
 </testng-results>
